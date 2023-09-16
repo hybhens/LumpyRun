@@ -1,5 +1,6 @@
 {
     "name": "Happy tree friends MakeCode Arcade: Lumpy Run",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "device": "*",
