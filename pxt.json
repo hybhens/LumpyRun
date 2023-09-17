@@ -1,5 +1,5 @@
 {
-    "name": "Happy tree friends MakeCode Arcade: Lumpy Run",
+    "name": "Happy tree friends MakeCode Arcade: Lumpy Run - Copy",
     "version": "0.1.0",
     "description": "",
     "dependencies": {
@@ -10,7 +10,9 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "main.py"
+        "main.py",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"

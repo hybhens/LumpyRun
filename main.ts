@@ -362,6 +362,8 @@ initRaptor()
 info.setScore(0)
 end = 0
 game.showLongText("Press any button to jump.", DialogLayout.Top)
+music.play(music.createSong(assets.song`LRintro`), music.PlaybackMode.UntilDone)
+let music2 = music.createSong(assets.song`LRloop`)
 game.onUpdate(function () {
     if (raptor.y < 94) {
         raptor.ay = 400
@@ -545,4 +547,7 @@ forever(function () {
     if (ground1.x < -1 * (scene.screenWidth() / 2)) {
         ground1.x = ground2.x + scene.screenWidth()
     }
+})
+forever(function () {
+    music.play(music2, music.PlaybackMode.UntilDone)
 })
